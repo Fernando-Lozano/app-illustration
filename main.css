@@ -25,3 +25,18 @@ body {
   right: -10%;
   border-radius: 50vw 50vw 0 0;
 }
+
+/* Responsive features */
+@media only screen and (max-width: 768px) {
+  
+  .left-background-shape {
+    top: -20%;
+    width: 80%;
+    left: -35%;
+  }
+  .right-background-shape {
+    bottom: -20%;
+    width: 80%;
+    right: -35%;
+  }
+}
