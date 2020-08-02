@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +43,48 @@ body {
   border-radius: 22px;
   height: 460px;
 }
+.topSection {
+  background: green;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  height: 60px;
+}
+.three {
+  display: flex;
+  margin-top: 5px;
+}
+.inline {
+  display: inline-block;
+}
+.firstThird {
+  display: flex;
+  margin: auto 8px;
+  color: white;
+}
+.arrow {
+  margin: auto;
+  font-size: 10px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 25px;
+  border: 1px solid white;
+  margin: auto 5px;
+}
+.secondThird {
+  width: 60%;
+}
+h4 {
+  font-size: 0.9rem;
+}
+.subHeading {
+  font-size: 0.6rem;
+}
+.thirdThird {
+  color: white;
+  font-size: 10px;
+  margin: auto;
+}
 .topPiece {
   background: blue;
   width: 120px;
@@ -49,6 +92,34 @@ body {
   margin: auto;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+/* message area */
+.messages {
+  margin: 8px;
+  background: white;
+  border-radius: 8px;
+  border-bottom-left-radius: 2px;
+  width: 60%;
+  font-size: 0.7rem;
+}
+p {
+  padding: 4px;
+}
+.dogs {
+  text-align: right;
+  margin-right: 8px;
+  margin-bottom: -8px;
+}
+.dog {
+  width: 35px;
+  border-radius: 8px;
+  margin: 1px;
+}
+.messagesRight {
+  margin-left: auto;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 8px;
 }
 
 /* Responsive features */
