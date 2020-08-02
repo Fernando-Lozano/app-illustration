@@ -176,14 +176,6 @@ p {
   font-size: 0.8rem;
   font-weight: 700;
 }
-.reply {
-  display: flex;
-  background: white;
-  border-radius: 20px;
-  width: 92%;
-  height: 40px;
-  margin: 74px auto 0;
-}
 .type {
   color: hsl(206, 6%, 79%);
   width: 80%;
@@ -233,6 +225,14 @@ h1 {
     position: fixed;
     width: 30%;
   }
+  .reply {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  width: 92%;
+  height: 40px;
+  margin: 74px auto 0;
+}
 }
 
 @media only screen and (max-width: 950px) {
@@ -273,5 +273,13 @@ h1 {
     width: 100%;
     margin-top: 20px;
   }
+  .reply {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  width: 92%;
+  height: 40px;
+  margin: 55px auto 0;
+}
 }
 
