@@ -10,7 +10,7 @@ body {
   z-index: -1;
   height: 85%;
   background: linear-gradient(to top right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
-  width: 35%;
+  width: 40%;
   top: 0;
   left: -10%;
   border-radius: 0 0 50vw 50vw; 
@@ -20,10 +20,35 @@ body {
   z-index: -1;
   height: 85%;
   background: hsl(270, 20%, 96%);
-  width: 30%;
+  width: 40%;
   bottom: 0;
   right: -10%;
   border-radius: 50vw 50vw 0 0;
+}
+.phone1 {
+  position: fixed;
+  background: white;
+  width: 250px;
+  height: 480px;
+  top: 20vh;
+  left: 25vw;
+  border-radius: 22px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.phone2 {
+  /* position: relative; */
+  background: yellow;
+  margin: 10px;
+  border-radius: 22px;
+  height: 460px;
+}
+.topPiece {
+  background: blue;
+  width: 120px;
+  height: 20px;
+  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /* Responsive features */
