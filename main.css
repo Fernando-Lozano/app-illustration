@@ -56,11 +56,13 @@ body {
   display: inline-block;
 }
 .firstThird {
-  display: flex;
   margin: auto 8px;
   color: white;
 }
 .arrow {
+  position: relative;
+  top: -8px;
+  left: 6px;
   margin: auto;
   font-size: 10px;
   color: hsl(270, 20%, 96%);;
@@ -72,14 +74,17 @@ body {
   margin: auto 5px;
 }
 .secondThird {
+  height: 100%;
   width: 60%;
 }
 h4 {
+  display: block;
   font-size: 0.8rem;
   color: hsl(270, 20%, 96%);
   text-align: left;
 }
 .subHeading {
+  display: block;
   color: hsl(276, 100%, 81%);
   font-size: 0.6rem;
   margin-top: -5px;
@@ -251,7 +256,7 @@ h1 {
     position: relative;
     display: block;
     margin: 40px auto 0;
-    text-align: center;
+    /* text-align: center; */
   }
   .phone2 {
     position: absolute;
